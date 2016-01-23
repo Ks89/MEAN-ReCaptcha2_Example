@@ -4,9 +4,9 @@ Working example of recaptcha in a form to send an email.</br>
 
 To be able to run this project with "nodemon" you must add a .env file with these properties:
 
-	RECAPTCHA_SECRET=YOUR_SECRET_KEY</br>
-	USER_EMAIL=SENDER_EMAIL</br>
-	PASS_EMAIL=SENDER_EMAIL_PASSWORD</br>
+	RECAPTCHA_SECRET=YOUR_SECRET_KEY
+	USER_EMAIL=SENDER_EMAIL
+	PASS_EMAIL=SENDER_EMAIL_PASSWORD
 
 And change these files:
 - /app_client/contact/contact.controller.js 
